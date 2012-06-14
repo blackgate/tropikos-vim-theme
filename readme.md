@@ -2,8 +2,8 @@
 
 ##Python
 
-![image](images/vim-tropikos-python.png)
+![image](https://github.com/blackgate/tropikos-vim-theme/raw/master/images/vim-tropikos-python.png)
 
 ##HTML
 
-![image](images/vim-tropikos-html.png)
+![image](https://github.com/blackgate/tropikos-vim-theme/raw/master/images/vim-tropikos-html.png)
