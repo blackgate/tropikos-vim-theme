@@ -44,7 +44,7 @@ hi DiffDelete           cterm=bold ctermbg=1        ctermfg=15
 hi DiffText             cterm=bold ctermbg=3        ctermfg=8
 hi MatchParen           cterm=none ctermbg=59       ctermfg=145     gui=none        guibg=#5F5F5F   guifg=#AFAFAF
 hi CursorLine           cterm=none ctermbg=238      ctermfg=none    gui=none        guibg=#424242
-hi Title                cterm=none ctermbg=none     ctermfg=99      gui=none                        guifg=#87AFFF
+hi Title                cterm=none ctermbg=none     ctermfg=139     gui=none                        guifg=#AF87AF
 
 " ----------------------------------------------------------------------------
 " Syntax Highlighting
@@ -53,7 +53,7 @@ hi Keyword              cterm=none ctermbg=none ctermfg=167         gui=none    
 hi Comment              cterm=none ctermbg=none ctermfg=59          gui=none        guifg=#5F5F5F
 hi Delimiter            cterm=none ctermbg=none ctermfg=145         gui=none        guifg=#AFAFAF
 hi Identifier           cterm=none ctermbg=none ctermfg=139         gui=none        guifg=#AF87AF
-hi Structure            cterm=none ctermbg=none ctermfg=12          gui=none        guifg=#9DEEF2
+hi Structure            cterm=none ctermbg=none ctermfg=139         gui=none        guifg=#AF87AF
 hi Ignore               cterm=none ctermbg=none ctermfg=59          gui=none        guifg=bg
 hi Constant             cterm=none ctermbg=none ctermfg=139         gui=none        guifg=#AF87AF
 hi PreProc              cterm=none ctermbg=none ctermfg=167         gui=none        guifg=#DF5F5F
@@ -62,7 +62,7 @@ hi Statement            cterm=none ctermbg=none ctermfg=167         gui=none    
 hi Special              cterm=none ctermbg=none ctermfg=6           gui=none        guifg=#d7d7d7
 hi String               cterm=none ctermbg=none ctermfg=107         gui=italic      guifg=#87AF5F
 hi Number               cterm=none ctermbg=none ctermfg=107         gui=none        guifg=#87AF5F
-hi Underlined           cterm=underline                             gui=underline
+hi Underlined           cterm=underline         ctermfg=139         gui=underline   guifg=#AF87AF
 hi Symbol               cterm=none ctermbg=none ctermfg=180         gui=none        guifg=#DFAF87
 hi Method               cterm=none ctermbg=none ctermfg=180         gui=none        guifg=#DFAF87
 hi Interpolation        cterm=none ctermbg=none ctermfg=180         gui=none        guifg=#DFAF87
@@ -75,6 +75,7 @@ hi link pythonFunction              Method
 hi link htmlTag                     Method
 hi link htmlEndTag                  Method
 hi link htmlArg                     Method
+hi link htmlLink                    Identifier
 
 " Javascript
 hi link javaScriptFunction          Keyword
